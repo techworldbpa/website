@@ -1,0 +1,97 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    padding: 40px 50px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #4A90E2;
+    margin-bottom: 20px;
+}
+
+.status {
+    font-size: 24px;
+    font-weight: 700;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact-info {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4A90E2;
+}
+
+.contact-info a {
+    color: #4A90E2;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.note {
+    font-size: 14px;
+    color: #777;
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    .status {
+        font-size: 20px;
+    }
+
+    .message {
+        font-size: 16px;
+    }
+
+    .contact-info {
+        font-size: 14px;
+    }
+
+    .note {
+        font-size: 12px;
+    }
+}
